@@ -1,0 +1,23 @@
+var productosOferta = [
+	{
+		"id": 1,
+		"precioOferta": 150,
+		"limiteUnidades": 10,
+		"mensaje": "Oferta de 60 segundos",
+		"tiempoOferta": 60
+	},
+	{
+		"id": 2,
+		"precioOferta": 349.99,
+		"limiteUnidades": 20,
+		"mensaje": "Oferta de 2 minutos",
+		"tiempoOferta": 120
+	},
+	{
+		"id": 6,
+		"precioOferta": 450,
+		"limiteUnidades": 50,
+		"mensaje": "Oferta XBOX ONE X",
+		"tiempoOferta": 360
+	}
+]

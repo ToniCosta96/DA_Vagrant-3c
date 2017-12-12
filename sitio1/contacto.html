@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	<title>RECA</title>
+        <meta charset="utf-8">
+        <!--<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>-->
+      <script type="text/javascript" src="http://maps.google.com/maps/api/js?"></script>
+    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    	<link rel="stylesheet" type="text/css" href="css/main.css">
+      <link rel="stylesheet" type="text/css" href="css/index.css">
+      <link rel="stylesheet" type="text/css" href="css/contacto.css">
+    	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+      
+      <script src="js/contacto.js" type="text/javascript" charset="utf-8"></script>
+    </head>
+    <body>
+    	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+      		<a class="navbar-brand" href="index.html">RECA</a>
+      		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        		<span class="navbar-toggler-icon"></span>
+      		</button>
+     		<div class="collapse navbar-collapse" id="navbarNavDropdown">
+        		<ul class="navbar-nav">
+          			<li class="nav-item dropdown">
+    			        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    			          	Productos
+    			        </a>
+    			        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+    			          	<a class="dropdown-item" href="computer.html">Ordenadores</a>
+    			          	<a class="dropdown-item" href="mobile.html">Móviles</a>
+    			          	<a class="dropdown-item" href="console.html">Consolas</a>
+    			        </div>
+          			</li>
+          			<li class="nav-item">
+            			<a class="nav-link" href="#">Contacto</a>
+          			</li>
+          			<li class="nav-item">
+            			<a class="nav-link" href="register.html">Regitrarse</a>
+          			</li>
+          			<li class="nav-item">
+            			<a class="nav-link" href="#" onclick="beta();">Entrar</a>
+          			</li>
+          		</ul>
+          		<ul class="navbar-nav mr-auto"></ul>
+          		<ul class="navbar-nav">
+          			<li class="nav-item">
+            			<a href="" class="nav-link fa fa-shopping-cart fa-1x"></a>
+          			</li>
+        		</ul>
+      		</div>
+    	</nav>
+      <div id="contenido">
+      <div id="caja-mapa">
+        <div id="map-canvas"></div>
+        <div id="datos">
+          <div id="dire">
+            <h4>RECA</h4></br>
+            <p>Carrer del Rei en Jaume I, 2<br>46470 Catarroja</br>Valencia</p>
+          </div>
+          <div id="Tel">
+            <h5>reca@gmail.com</h5><p></br>96 333 33 33</br>666 00 00 00</p>
+
+          </div>
+
+        </div>
+      </div>
+      <div>
+        <form action="" class="formulario" onsubmit="comprueba();">
+          <h2 class="formulario__titulo">Contacto</h2>
+          <input type="text" class="formulario__input" id="campoNombre">
+          <label for="" class="formulario__label">Nombre</label>
+          <input type="text" class="formulario__input" id="campoEmail">
+          <label for="" class="formulario__label">Correo</label>
+          <input type="text" class="formulario__input" id="campoTel">
+          <label for="" class="formulario__label">Teléfono</label>
+          <input type="text" class="formulario__input">
+          <label for="" class="formulario__label">Mensaje</label>
+          <input type="submit" class="formulario__submit" >
+        </form>
+
+      </div>
+    </div>
+
+    </body>
+<footer class="fixed-bottom">
+    <div class="container">
+    	<div class="footer">
+    		Powered by <strong>Reca.</strong>
+    		<div class="lg-6">
+    			<a href="" class="fa fa-twitter fa-2x"></a>
+    			<a href="" class="fa fa-facebook fa-2x"></a>
+    		</div>
+    	</div>
+    </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</html>

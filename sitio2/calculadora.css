@@ -1,0 +1,91 @@
+.calculadora{
+    margin: 0 auto;
+    width: 60%;
+    min-width:425px;
+    text-align: center;
+    background-color: #BDBDBD;
+    border: 1px solid;
+    border-radius: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-bottom: 10px;
+}
+table{
+	margin: 0 auto;
+	width: 419px;
+	height: 350px;
+}
+input[type="text"]{ 
+    text-align: right;
+    height:40px;
+    font-size:24px;
+    margin-bottom: 10px;
+}
+button{
+	width: 100%;
+	height: 100%;
+	font-size: 18px;
+    color: black;
+    background-color: #2E64FE;
+    border: none;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+button.btnEliminar{
+    background-color: #FFB414;
+}
+
+button.btnOperacion{
+    background-color: #0080FF;
+}
+
+button:disabled{
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+button.btnNumero:hover{
+    background-color: #013ADF;
+    color: #A9D0F5;
+}
+button.btnOperacion:hover{
+    background-color: #013ADF;
+    color: #A9D0F5;
+}
+button.btnEliminar:hover{
+    background-color: #F7A306;
+    color: #F5DA81;
+}
+
+button.btnNumero:active{
+    box-shadow: 0px 0px 10px #FFB414;
+    color: white;
+    -webkit-transition-duration: 0s; /* Safari */
+    transition-duration: 0s;
+}
+button.btnOperacion:active{
+    box-shadow: 0px 0px 10px #FFB414;
+    color: white;
+    -webkit-transition-duration: 0s; /* Safari */
+    transition-duration: 0s;
+}
+button.btnEliminar:active{
+    box-shadow: none;
+    color: white;
+    -webkit-transition-duration: 0s; /* Safari */
+    transition-duration: 0s;
+}
+
+button.btnNumero:disabled{
+    box-shadow: none;
+    color: black;
+}
+button.btnOperacion:disabled{
+    box-shadow: none;
+    color: black;
+}
+button.btnEliminar:disabled{
+    box-shadow: none;
+    color: black;
+}

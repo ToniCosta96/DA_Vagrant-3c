@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	<title>RECA</title>
+        <meta charset="utf-8">
+    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    	<link rel="stylesheet" type="text/css" href="css/main.css">
+    	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+      <link rel="stylesheet" type="text/css" href="css/register.css">
+      
+    </head>
+    <body>
+    <div class="text-center">
+        <a href="index.html"><img src="img/logo.jpg" id="registerlogo"></a>
+    <div class="container" id="container">
+        <form>
+            <div class="form-group">
+                <label class="col-2 col-form-label">Nombre</label>
+                <input type="text" name="name" class="" required="true" placeholder="Nombre...">
+            </div>
+            <div class="form-group">
+                <label class="col-2 col-form-label">Apellidos</label>
+                <input type="text" name="surname" required="true" placeholder="Apellidos...">
+            </div>
+            <div class="form-group">
+                <label class="col-2 col-form-label">Dirección</label>
+                <input type="" name="address" required="true" placeholder="Dirección...">
+            </div>
+            <div class="form-group">
+                <label class="col-2 col-form-label">Fecha de nacimiento</label>
+                <input type="date" name="birthday" id="birthday" required="true">
+            </div>
+            <div class="form-group">
+                <label class="col-2 col-form-label">Correo electrónico</label>
+                <input type="email" name="email" required="true" placeholder="Correo electrónico...">
+            </div>
+            <div class="form-group">
+                <label class="col-2 col-form-label">Contraseña</label>
+                <input type="password" name="pass1" id="pass1" required="true" placeholder="Contraseña...">
+            </div>
+            <div class="form-group">
+                <label class="col-2 col-form-label">Vuelve a introducir tu contraseña</label>
+                <input type="password" name="pass2" id="pass2" required="true" placeholder="Confirmar contraseña...">
+            </div>
+            <input type="button" onclick="comprueba();" name="" value="Registrarse" class="btn btn-success">
+        </form>
+    </div>
+    </div>
+</footer>
+<script type="text/javascript" src="js/register.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</html>

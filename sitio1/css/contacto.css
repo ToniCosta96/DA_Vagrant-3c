@@ -1,0 +1,127 @@
+/****MAPA*******/
+#caja-mapa {
+  	width: 400px;
+  	height: 450px;
+  	box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
+  	margin-left: 190px;
+  	margin-top: 30px;
+  	float: left;
+  }
+
+#map-canvas{
+      width: 400px;
+      height: 300px;
+
+  }
+
+  #datos {
+  	width: 400px;
+  	height: 150px;
+  	overflow: hidden;
+  	float: left;
+  }
+
+  #dire {
+  	width: 185px;
+  	height: 125px;
+  	padding-left: 10px;
+  	overflow: hidden;
+  	float: left;
+  	margin-top: 12px;
+
+  }
+
+  #Tel {
+  	width: 185px;
+  	height: 125px;
+  	padding-left: 10px;
+  	float: right;
+  	overflow: hidden;
+  	margin-top: 12px;
+
+  }
+
+  p {
+  	font-size: 13px;
+  	float: left;
+  	color: rgba(0,0,0,0.7);
+
+  }
+
+  h4 {
+  	margin-top: 10px;
+  	float: left;
+  	color: rgba(0,0,0,0.7);
+  }
+
+  h5 {
+  	margin-top: 10px;
+  	float: left;
+  	color: rgba(0,0,0,0.7);
+  }
+/******************/
+
+
+/******FORMULARIO****/
+
+* {
+	box-sizing: border-box; /*Para que los elementos de la caja midan exactamente la medida definida*/
+}
+
+body>div {
+	width: 1200px;
+	margin: 8px auto;
+	font-family: sans-serif;
+}
+
+.formulario {
+	/*background-color: red;*/
+	width: 400px;
+	margin-left: 130px;
+	margin-top: 30px;
+	padding: 20px;
+	box-shadow: 0 0 20px 1px rgba(0,0,0,0.3); /* 0 0 desplazamiento 20px difuminado 1px expansión, 0.3 transparencia*/
+	/*position: relative; /*Vamos a poner otro elemento en base al formulario*/
+	float: left;
+}
+
+.formulario__titulo {
+	text-align: center;
+	margin-top: 0;
+	color: rgba(0,0,0,0.7);
+}
+
+.formulario__input, .formulario__label, .formulario__submit {
+	display: block; /*Dispone los elementos en bloque uno debajo de otro*/
+	width: 100%;
+	font-size: 1em;
+}
+
+.formulario__input {
+	padding: 10px;
+	background: transparent; /*Para poder ver el label*/
+	background: rgba(0,0,0,0.1); /*Se añade color con transparencia*/
+	border: 1px solid rgba(0,0,0,0.3);
+	margin-bottom: 35px;
+}
+
+.formulario__label {
+	padding-left: 15px; /*Margen*/
+	position: absolute; /*Para que los labels pierdan su espacio*/
+	margin-top: -105px;
+	z-index: -20; /*Para que me deje marcar el input y escribir*/
+	color: rgba(0,0,0,0.5);
+	transition: all 0.2s; /*Le da efecto de movimiento a la transición*/
+}
+
+.formulario__submit {
+	background-color: rgba(0,0,0,0.7);
+	color: white;
+	padding: 10px;
+	cursor: pointer; /*cursor tipo mano*/
+	border: none;
+
+}
+
+
+

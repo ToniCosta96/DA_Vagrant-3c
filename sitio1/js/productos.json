@@ -1,0 +1,66 @@
+var productos = [
+	{
+		"id": 1,
+		"titulo": "titulo1",
+		"descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eu cursus justo, sit amet dignissim justo.",
+		"imagen": "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RW6L3H?ver=050a&q=60&m=6&h=423&w=752&b=%23FFFFFFFF&o=f",
+		"precio": 300,
+		"tipo": "ordenador"
+	},
+	{
+		"id": 2,
+		"titulo": "Samsung Galaxy J5 2016",
+		"descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eu cursus justo, sit amet dignissim justo.",
+		"imagen": "https://www.profesionalreview.com/wp-content/uploads/2016/09/Smartphone-Samsung-Galaxy-J5-2016.jpg",
+		"precio": 299.99,
+		"tipo": "movil"
+	},
+	{
+		"id": 3,
+		"titulo": "PS4 SLIM",
+		"descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eu cursus justo, sit amet dignissim justo.",
+		"imagen": "http://media.4rgos.it/i/Argos/5718469_R_Z001A?$Web$&$DefaultPDP570$&$WebPDPBadge570$&topright=empty&bottomleft=empty",
+		"precio": 349.99,
+		"tipo": "consola"
+	},
+	{
+		"id": 4,
+		"titulo": "titulo4",
+		"descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eu cursus justo, sit amet dignissim justo.",
+		"imagen": "https://brain-images-ssl.cdn.dixons.com/6/9/10158596/l_10158596_004.jpg",
+		"precio": 500,
+		"tipo": "ordenador"
+	},
+	{
+		"id": 5,
+		"titulo": "titulo5",
+		"descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eu cursus justo, sit amet dignissim justo.",
+		"imagen": "https://www.cyberpowerpc.com/images/cs/inwin303/orgv3_220.png",
+		"precio": 800,
+		"tipo": "ordenador"
+	},
+	{
+		"id": 6,
+		"titulo": "XBOX ONE X",
+		"descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eu cursus justo, sit amet dignissim justo.",
+		"imagen": "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2017/06/xbox-one-x.jpg",
+		"precio": 499.99,
+		"tipo": "consola"
+	},
+	{
+		"id": 7,
+		"titulo": "LG V30",
+		"descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eu cursus justo, sit amet dignissim justo.",
+		"imagen": "http://cdn.pocket-lint.com/r/s/1200x/assets/images/141930-phones-news-this-is-the-lg-v30-image1-ya6nxmooat.jpg",
+		"precio": 799.50,
+		"tipo": "movil"
+	},
+	{
+		"id": 8,
+		"titulo": "Acer Aspire V5",
+		"descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eu cursus justo, sit amet dignissim justo.",
+		"imagen": "https://i.blogs.es/4acfba/acer-aspire-v5-nav2/450_1000.png",
+		"precio": 499.50,
+		"tipo": "ordenador"
+	}
+]
